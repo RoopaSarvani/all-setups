@@ -5,4 +5,4 @@ yum install jenkins -y
 systemctl start jenkins
 systemctl status jenkins
 yum install git -y
-yum restart jenkins
+systemctl restart jenkins
