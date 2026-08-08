@@ -1,3 +1,8 @@
+#AWS CLI Installation
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+
 # for ARM systems, set ARCH to: `arm64`
 ARCH=amd64
 PLATFORM=$(uname -s)_$ARCH
